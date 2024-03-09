@@ -1,0 +1,50 @@
+.container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 90vh;
+  width: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: center;
+}
+* button {
+  background-color: #ffffff;
+  height: 30px;
+  width: 130px;
+  border-radius: 5px;
+  color: #fc63a7;
+  border-width: 0px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+}
+
+.paragraph {
+  background-color: #fddddb;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #000000;
+  height: 60px;
+  width: 130px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 20px;
+}
